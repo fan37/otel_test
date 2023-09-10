@@ -1,0 +1,19 @@
+{
+  "name": "node-server-a",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@opentelemetry/api": "^1.4.1",
+    "@opentelemetry/auto-instrumentations-node": "^0.39.2",
+    "@opentelemetry/sdk-node": "^0.41.2",
+    "express": "^4.18.2"
+  }
+}
